@@ -1,0 +1,17 @@
+{
+  "name": "Hotstar Watermark Remover",
+  "version": "1.0.0",
+  "description": "Remove Hotstar / Live Watermark",
+  "manifest_version": 3,
+  "author": "Mustafa Kapadia",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Hotstar Watermark Remover"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.hotstar.com/*"],
+      "js": ["remover.js"]
+    }
+  ]
+}
