@@ -11,6 +11,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.hotstar.com/*"],
+      "css": ["modify-subtitles.css"],
       "js": ["remover.js"]
     }
   ]
