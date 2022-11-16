@@ -1,15 +1,18 @@
-function removeWatermark() {
-  const waterMarkContainer =
-    document.querySelector(".watermark-content") ?? null;
-  console.log(waterMarkContainer);
+const WATERMARK_CLASS_SELECTOR = ".watermark-content";
+
+function removeWatermark(waterMarkContainer) {
+  console.log("Removing: ", waterMarkContainer);
   waterMarkContainer?.remove();
 }
 
-[
-  "fullscreenchange",
-  "webkitfullscreenchange",
-  "mozfullscreenchange",
-  "msfullscreenchange",
-].forEach(eventType =>
-  document.addEventListener(eventType, removeWatermark, false)
-);
+const observer = new MutationObserver(function (mutations, mutationInstance) {
+  const watermarkContainer = document.querySelector(WATERMARK_CLASS_SELECTOR);
+  if (watermarkContainer) {
+    removeWatermark(watermarkContainer);
+  }
+});
+
+observer.observe(document.body, {
+  childList: true,
+  subtree: true,
+});

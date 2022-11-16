@@ -1,12 +1,12 @@
 {
-  "name": "Hotstar Watermark Remover",
+  "name": "Hotstar Enhancer",
   "version": "1.0.0",
-  "description": "Remove Hotstar / Live Watermark",
+  "description": "Remove Hotstar / Live Watermark plus some other ehancements",
   "manifest_version": 3,
   "author": "Mustafa Kapadia",
   "action": {
     "default_popup": "index.html",
-    "default_title": "Hotstar Watermark Remover"
+    "default_title": "Hotstar Enhancer"
   },
   "content_scripts": [
     {
