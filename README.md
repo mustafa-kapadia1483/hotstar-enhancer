@@ -9,7 +9,7 @@ I have a oled display laptop and me overthing about oled burn in combined with t
 1. Download this repository zip file & unpack the folder / use this command below if you have git installed
 
 ```bash
-git clone mustafakapadia 'https://github.com/mustafa-kapadia1483/hotstar-watermark-remover'
+git clone 'https://github.com/mustafa-kapadia1483/hotstar-watermark-remover'
 ```
 
 2. Click on three dots in top right corner of chrome
