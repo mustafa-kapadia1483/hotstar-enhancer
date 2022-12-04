@@ -1,8 +1,13 @@
 An simple extension to remove the hotstar / live watermark when a video is viewed in full screen on hotstar.com
 
+## Features
+
+1. Remove Hotstar Watermark on Player
+2. Improved subtitles styling by removing the black background for subtitles and giving it text stroke.
+
 ## Why did I create this extension ?
 
-I have a OLED laptop and me overthing about OLED burn in combined with the irritation I felt when I saw the watermark even for movies / shows I decided to create this extension for me and my friends.
+I have a OLED laptop and me overthing about OLED burn in combined with the irritation I felt when I saw the watermark even for movies / shows I decided to create this extension for me and my friends. Also I really hated the black background on subtitles which felt unnecessary & irritating while watching content. 
 
 ## How to Install this Extension ?
 
